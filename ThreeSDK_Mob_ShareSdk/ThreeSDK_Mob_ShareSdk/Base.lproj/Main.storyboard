@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shareSDKDemo_只包含QQ、微信包含支付、拷贝" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSk-wU-a1R">
+                                <rect key="frame" x="10" y="20" width="355" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOJ-Cm-h7J">
+                                <rect key="frame" x="49.5" y="318" width="276" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.72046678740000003" blue="0.099328182779999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="Rco-NX-yyP"/>
+                                </constraints>
+                                <state key="normal" title="分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2Share:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ce4-7n-Coe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ7-ju-UEU">
+                                <rect key="frame" x="49" y="368" width="276" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.72046678740000003" blue="0.099328182779999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="3cy-e5-Ta0"/>
+                                </constraints>
+                                <state key="normal" title="QQ分享">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2QQShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="60w-Kp-gLu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUS-53-5qZ">
+                                <rect key="frame" x="49" y="418" width="276" height="30"/>
+                                <color key="backgroundColor" red="0.8098495631" green="0.68941667719999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="Lze-Vv-FWm"/>
+                                </constraints>
+                                <state key="normal" title="跳转到自定义ShareUI">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2CustomShareUI_VC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ate-dA-WQa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WSk-wU-a1R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5E0-09-fwn"/>
+                            <constraint firstItem="KJ7-ju-UEU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A33-mq-wIz"/>
+                            <constraint firstItem="nOJ-Cm-h7J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fvg-nF-uUx"/>
+                            <constraint firstAttribute="trailing" secondItem="WSk-wU-a1R" secondAttribute="trailing" constant="10" id="JYh-n5-EVX"/>
+                            <constraint firstItem="nOJ-Cm-h7J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ONP-Ui-oQD"/>
+                            <constraint firstItem="KJ7-ju-UEU" firstAttribute="top" secondItem="nOJ-Cm-h7J" secondAttribute="bottom" constant="20" id="T7K-y4-rbX"/>
+                            <constraint firstItem="uUS-53-5qZ" firstAttribute="top" secondItem="KJ7-ju-UEU" secondAttribute="bottom" constant="20" id="WPf-Ok-ubx"/>
+                            <constraint firstItem="WSk-wU-a1R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="ZMH-i7-nCo"/>
+                            <constraint firstItem="uUS-53-5qZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zmj-De-0kg"/>
+                            <constraint firstItem="WSk-wU-a1R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sup-u3-McA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

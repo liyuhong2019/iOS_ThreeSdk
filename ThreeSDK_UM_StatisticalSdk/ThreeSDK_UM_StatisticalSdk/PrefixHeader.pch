@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  ThreeSDK_UM_StatisticalSdk
+//
+//  Created by lee on 2019/1/18.
+//  Copyright © 2019年 lee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/* ------------------ 友盟统计sdk ------------------*/ 
+#define UM_Appkey @"5c417384f1f556fe3f000f83"
+#import <UMCommon/UMCommon.h>
+#import <UMAnalytics/MobClickGameAnalytics.h>
+#import <UMAnalytics/MobClick.h>
+
+#endif /* PrefixHeader_pch */

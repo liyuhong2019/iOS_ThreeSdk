@@ -1,0 +1,39 @@
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+
+
+// ------------------------------ MobShareSdk start ------------------------------ //
+#pragma mark - Mob_ShareSdk start
+#define MobAppName @"2019_iOSdemo"
+#define MOBAppKey @"2982424d6a678"
+#define MOBAppSecret @"b829c470957cc12edcf9cb89b25fc6d3"
+// 这里临时使用公司其他的账号 比如
+#define MOBAppIdFor_QQ @"1107606105"            // 东阳
+#define MOBAppkeyFor_QQ @"oW4iQmPxyyCs46jD"
+#define MOBAppIdFor_WeChat @"wxe42cbbbada2ba5a0"    // 汇聚医疗
+#define MOBAppkeyFor_WeChat @"ea72c6a285545d1099993ef7e5d84df8"
+#import <ShareSDK/ShareSDK.h>
+#pragma mark Mob_ShareSdk end
+// ------------------------------ MobShareSdk  end ------------------------------ //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

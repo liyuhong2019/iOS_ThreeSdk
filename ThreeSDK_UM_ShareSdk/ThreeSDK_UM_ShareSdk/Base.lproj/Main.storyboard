@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1 使用登录操作,2 使用分享操作" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1th-JX-saG">
+                                <rect key="frame" x="15" y="20" width="345" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6B-sE-IhU">
+                                <rect key="frame" x="15" y="65" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.04931640625" green="0.75721571180000002" blue="0.34103732640000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5rV-NU-ZdK"/>
+                                </constraints>
+                                <state key="normal" title="微信">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2WaChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ylb-LU-lli"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wix-cY-u04">
+                                <rect key="frame" x="15" y="120" width="345" height="40"/>
+                                <color key="backgroundColor" red="0.04931640625" green="0.75721571180000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="K2P-Yy-Qnk"/>
+                                </constraints>
+                                <state key="normal" title="QQ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2QQ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nvE-rN-cYt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIV-79-m35">
+                                <rect key="frame" x="15" y="175" width="345" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.86813693576388884" blue="0.55451493254722228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qKE-KZ-ooL"/>
+                                </constraints>
+                                <state key="normal" title="微博">
+                                    <color key="titleColor" red="1" green="0.39043511279999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="go2Sina:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfc-Rp-q2o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1th-JX-saG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2UN-bB-eL9"/>
+                            <constraint firstItem="1th-JX-saG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="2XA-UJ-K2E"/>
+                            <constraint firstItem="Wix-cY-u04" firstAttribute="top" secondItem="x6B-sE-IhU" secondAttribute="bottom" constant="15" id="33O-ns-7Yg"/>
+                            <constraint firstItem="x6B-sE-IhU" firstAttribute="leading" secondItem="1th-JX-saG" secondAttribute="leading" id="3lA-a4-oll"/>
+                            <constraint firstItem="OIV-79-m35" firstAttribute="leading" secondItem="1th-JX-saG" secondAttribute="leading" id="57N-hb-jBb"/>
+                            <constraint firstItem="x6B-sE-IhU" firstAttribute="top" secondItem="1th-JX-saG" secondAttribute="bottom" constant="15" id="G3y-Iu-haK"/>
+                            <constraint firstItem="Wix-cY-u04" firstAttribute="height" secondItem="x6B-sE-IhU" secondAttribute="height" id="KfR-VJ-Teq"/>
+                            <constraint firstItem="OIV-79-m35" firstAttribute="height" secondItem="x6B-sE-IhU" secondAttribute="height" id="QUb-in-jR7"/>
+                            <constraint firstItem="Wix-cY-u04" firstAttribute="trailing" secondItem="1th-JX-saG" secondAttribute="trailing" id="Qbc-n7-h0e"/>
+                            <constraint firstItem="OIV-79-m35" firstAttribute="top" secondItem="Wix-cY-u04" secondAttribute="bottom" constant="15" id="cfF-h8-zzx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1th-JX-saG" secondAttribute="trailing" constant="15" id="dcy-7s-hti"/>
+                            <constraint firstItem="x6B-sE-IhU" firstAttribute="trailing" secondItem="1th-JX-saG" secondAttribute="trailing" id="oU8-mg-5T9"/>
+                            <constraint firstItem="Wix-cY-u04" firstAttribute="leading" secondItem="1th-JX-saG" secondAttribute="leading" id="wyg-mS-NrR"/>
+                            <constraint firstItem="OIV-79-m35" firstAttribute="trailing" secondItem="1th-JX-saG" secondAttribute="trailing" id="xv1-6p-nd9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tf_type" destination="1th-JX-saG" id="isQ-Ic-nlA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

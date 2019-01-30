@@ -195,7 +195,7 @@
     UMSocialMessageObject *messageObject = [UMSocialMessageObject messageObject];
     
     //创建网页内容对象
-    UMShareWebpageObject *shareObject = [UMShareWebpageObject shareObjectWithTitle:@"分享标题" descr:@"分享内容描述" thumImage:[UIImage imageNamed:@"lyh165_thumb"]]; // lyh165_thumb 是分享链接的图片
+    UMShareWebpageObject *shareObject = [UMShareWebpageObject shareObjectWithTitle:@"分享标题" descr:@"分享内容描述" thumImage:[UIImage imageNamed:@"logo"]]; // lyh165_thumb 是分享链接的图片
     //设置网页地址
     shareObject.webpageUrl =@"http://www.baidu.com";
     //分享消息对象设置分享内容对象

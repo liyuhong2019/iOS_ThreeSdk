@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA6396522018CEA00908198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6396322018CEA00908198 /* Main.storyboard */; };
+		9BA6396722018CEB00908198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6396622018CEB00908198 /* Assets.xcassets */; };
+		9BA6396A22018CEB00908198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6396822018CEB00908198 /* LaunchScreen.storyboard */; };
+		9BA6398F22018D4A00908198 /* (README)66、Tool.md in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6397422018D4900908198 /* (README)66、Tool.md */; };
+		9BA6399022018D4A00908198 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6397922018D4900908198 /* README.md */; };
+		9BA6399122018D4A00908198 /* ThreeSDK_TentcentOpenSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6397B22018D4900908198 /* ThreeSDK_TentcentOpenSdk.m */; };
+		9BA6399522018D4A00908198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6398922018D4900908198 /* ViewController.m */; };
+		9BA6399622018D4A00908198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6398A22018D4900908198 /* main.m */; };
+		9BA6399722018D4A00908198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6398B22018D4900908198 /* AppDelegate.m */; };
+		9BA6399822018D4A00908198 /* (README)33、ThreeFoundation.md in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6398E22018D4900908198 /* (README)33、ThreeFoundation.md */; };
+		9BA6399D22018DBB00908198 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA6399B22018DBB00908198 /* Bugly.framework */; };
+		9BA6399E22018DBB00908198 /* 使用说明.md in Resources */ = {isa = PBXBuildFile; fileRef = 9BA6399C22018DBB00908198 /* 使用说明.md */; };
+		9BA639A122018E1D00908198 /* ThreeSDK_Tentcent_Bugly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA639A022018E1D00908198 /* ThreeSDK_Tentcent_Bugly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BA6395A22018CEA00908198 /* ThreeSDK_Tencent_Bugly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeSDK_Tencent_Bugly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA6396422018CEA00908198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA6396622018CEB00908198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA6396922018CEB00908198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA6396B22018CEB00908198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA6397422018D4900908198 /* (README)66、Tool.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "(README)66、Tool.md"; sourceTree = "<group>"; };
+		9BA6397922018D4900908198 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9BA6397B22018D4900908198 /* ThreeSDK_TentcentOpenSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSDK_TentcentOpenSdk.m; sourceTree = "<group>"; };
+		9BA6397C22018D4900908198 /* ThreeSDK_TentcentOpenSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeSDK_TentcentOpenSdk.h; sourceTree = "<group>"; };
+		9BA6398822018D4900908198 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BA6398922018D4900908198 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BA6398A22018D4900908198 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BA6398B22018D4900908198 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BA6398C22018D4900908198 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BA6398E22018D4900908198 /* (README)33、ThreeFoundation.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "(README)33、ThreeFoundation.md"; sourceTree = "<group>"; };
+		9BA6399B22018DBB00908198 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		9BA6399C22018DBB00908198 /* 使用说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "使用说明.md"; sourceTree = "<group>"; };
+		9BA6399F22018E1D00908198 /* ThreeSDK_Tentcent_Bugly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeSDK_Tentcent_Bugly.h; sourceTree = "<group>"; };
+		9BA639A022018E1D00908198 /* ThreeSDK_Tentcent_Bugly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeSDK_Tentcent_Bugly.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA6395722018CEA00908198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA6399D22018DBB00908198 /* Bugly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA6395122018CEA00908198 = {
+			isa = PBXGroup;
+			children = (
+				9BA6395C22018CEA00908198 /* ThreeSDK_Tencent_Bugly */,
+				9BA6395B22018CEA00908198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA6395B22018CEA00908198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6395A22018CEA00908198 /* ThreeSDK_Tencent_Bugly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA6395C22018CEA00908198 /* ThreeSDK_Tencent_Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6398722018D4900908198 /* 0、Main(必须包含) */,
+				9BA6397522018D4900908198 /* 1、Appdelegate(应用代理扩展_分类、瘦身) */,
+				9BA6398D22018D4900908198 /* 33、ThreeFoundation(第三方开源框架) */,
+				9BA6397D22018D4900908198 /* 33、ThreeSdk(第三方Sdk) */,
+				9BA6397322018D4900908198 /* 66、Tool(工具类、可扩展) */,
+				9BA6396322018CEA00908198 /* Main.storyboard */,
+				9BA6396622018CEB00908198 /* Assets.xcassets */,
+				9BA6396822018CEB00908198 /* LaunchScreen.storyboard */,
+				9BA6396B22018CEB00908198 /* Info.plist */,
+			);
+			path = ThreeSDK_Tencent_Bugly;
+			sourceTree = "<group>";
+		};
+		9BA6397322018D4900908198 /* 66、Tool(工具类、可扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397422018D4900908198 /* (README)66、Tool.md */,
+			);
+			path = "66、Tool(工具类、可扩展)";
+			sourceTree = "<group>";
+		};
+		9BA6397522018D4900908198 /* 1、Appdelegate(应用代理扩展_分类、瘦身) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397622018D4900908198 /* Thin(瘦身) */,
+			);
+			path = "1、Appdelegate(应用代理扩展_分类、瘦身)";
+			sourceTree = "<group>";
+		};
+		9BA6397622018D4900908198 /* Thin(瘦身) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397722018D4900908198 /* Single(单例) */,
+			);
+			path = "Thin(瘦身)";
+			sourceTree = "<group>";
+		};
+		9BA6397722018D4900908198 /* Single(单例) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397822018D4900908198 /* AppDelegate_Single(应用程序的代理) */,
+				9BA6397A22018D4900908198 /* AppDelegate_Single_ThreeSDK(应用程序的第三方SDK) */,
+			);
+			path = "Single(单例)";
+			sourceTree = "<group>";
+		};
+		9BA6397822018D4900908198 /* AppDelegate_Single(应用程序的代理) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397922018D4900908198 /* README.md */,
+			);
+			path = "AppDelegate_Single(应用程序的代理)";
+			sourceTree = "<group>";
+		};
+		9BA6397A22018D4900908198 /* AppDelegate_Single_ThreeSDK(应用程序的第三方SDK) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6397C22018D4900908198 /* ThreeSDK_TentcentOpenSdk.h */,
+				9BA6397B22018D4900908198 /* ThreeSDK_TentcentOpenSdk.m */,
+				9BA6399F22018E1D00908198 /* ThreeSDK_Tentcent_Bugly.h */,
+				9BA639A022018E1D00908198 /* ThreeSDK_Tentcent_Bugly.m */,
+			);
+			path = "AppDelegate_Single_ThreeSDK(应用程序的第三方SDK)";
+			sourceTree = "<group>";
+		};
+		9BA6397D22018D4900908198 /* 33、ThreeSdk(第三方Sdk) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6399922018DBB00908198 /* TencentSDK_Class(腾讯SDK) */,
+			);
+			path = "33、ThreeSdk(第三方Sdk)";
+			sourceTree = "<group>";
+		};
+		9BA6398722018D4900908198 /* 0、Main(必须包含) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6398822018D4900908198 /* AppDelegate.h */,
+				9BA6398B22018D4900908198 /* AppDelegate.m */,
+				9BA6398A22018D4900908198 /* main.m */,
+				9BA6398C22018D4900908198 /* ViewController.h */,
+				9BA6398922018D4900908198 /* ViewController.m */,
+			);
+			path = "0、Main(必须包含)";
+			sourceTree = "<group>";
+		};
+		9BA6398D22018D4900908198 /* 33、ThreeFoundation(第三方开源框架) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6398E22018D4900908198 /* (README)33、ThreeFoundation.md */,
+			);
+			path = "33、ThreeFoundation(第三方开源框架)";
+			sourceTree = "<group>";
+		};
+		9BA6399922018DBB00908198 /* TencentSDK_Class(腾讯SDK) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6399A22018DBB00908198 /* Bugly(bug卡顿检测) */,
+			);
+			path = "TencentSDK_Class(腾讯SDK)";
+			sourceTree = "<group>";
+		};
+		9BA6399A22018DBB00908198 /* Bugly(bug卡顿检测) */ = {
+			isa = PBXGroup;
+			children = (
+				9BA6399B22018DBB00908198 /* Bugly.framework */,
+				9BA6399C22018DBB00908198 /* 使用说明.md */,
+			);
+			path = "Bugly(bug卡顿检测)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA6395922018CEA00908198 /* ThreeSDK_Tencent_Bugly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA6397022018CEB00908198 /* Build configuration list for PBXNativeTarget "ThreeSDK_Tencent_Bugly" */;
+			buildPhases = (
+				9BA6395622018CEA00908198 /* Sources */,
+				9BA6395722018CEA00908198 /* Frameworks */,
+				9BA6395822018CEA00908198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeSDK_Tencent_Bugly;
+			productName = ThreeSDK_Tencent_Bugly;
+			productReference = 9BA6395A22018CEA00908198 /* ThreeSDK_Tencent_Bugly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA6395222018CEA00908198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lee;
+				TargetAttributes = {
+					9BA6395922018CEA00908198 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BA6395522018CEA00908198 /* Build configuration list for PBXProject "ThreeSDK_Tencent_Bugly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA6395122018CEA00908198;
+			productRefGroup = 9BA6395B22018CEA00908198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA6395922018CEA00908198 /* ThreeSDK_Tencent_Bugly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA6395822018CEA00908198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA6396A22018CEB00908198 /* LaunchScreen.storyboard in Resources */,
+				9BA6399822018D4A00908198 /* (README)33、ThreeFoundation.md in Resources */,
+				9BA6399E22018DBB00908198 /* 使用说明.md in Resources */,
+				9BA6396722018CEB00908198 /* Assets.xcassets in Resources */,
+				9BA6399022018D4A00908198 /* README.md in Resources */,
+				9BA6396522018CEA00908198 /* Main.storyboard in Resources */,
+				9BA6398F22018D4A00908198 /* (README)66、Tool.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA6395622018CEA00908198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA6399722018D4A00908198 /* AppDelegate.m in Sources */,
+				9BA6399522018D4A00908198 /* ViewController.m in Sources */,
+				9BA639A122018E1D00908198 /* ThreeSDK_Tentcent_Bugly.m in Sources */,
+				9BA6399622018D4A00908198 /* main.m in Sources */,
+				9BA6399122018D4A00908198 /* ThreeSDK_TentcentOpenSdk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BA6396322018CEA00908198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA6396422018CEA00908198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA6396822018CEB00908198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA6396922018CEB00908198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA6396E22018CEB00908198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BA6396F22018CEB00908198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA6397122018CEB00908198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FR6C5N825;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeSDK_Tencent_Bugly/33、ThreeSdk(第三方Sdk)/TencentSDK_Class(腾讯SDK)/Bugly(bug卡顿检测)",
+				);
+				INFOPLIST_FILE = ThreeSDK_Tencent_Bugly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeSDK_Tencent_Bugly/33、ThreeSdk(第三方Sdk)/TentcentSDK_Class(腾讯SDK)/WeChat_OpenSDK(微信开放平台SDk)/WeChatSDK1.8.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA6397222018CEB00908198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FR6C5N825;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeSDK_Tencent_Bugly/33、ThreeSdk(第三方Sdk)/TencentSDK_Class(腾讯SDK)/Bugly(bug卡顿检测)",
+				);
+				INFOPLIST_FILE = ThreeSDK_Tencent_Bugly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeSDK_Tencent_Bugly/33、ThreeSdk(第三方Sdk)/TentcentSDK_Class(腾讯SDK)/WeChat_OpenSDK(微信开放平台SDk)/WeChatSDK1.8.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyh.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA6395522018CEA00908198 /* Build configuration list for PBXProject "ThreeSDK_Tencent_Bugly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA6396E22018CEB00908198 /* Debug */,
+				9BA6396F22018CEB00908198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA6397022018CEB00908198 /* Build configuration list for PBXNativeTarget "ThreeSDK_Tencent_Bugly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA6397122018CEB00908198 /* Debug */,
+				9BA6397222018CEB00908198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA6395222018CEA00908198 /* Project object */;
+}
